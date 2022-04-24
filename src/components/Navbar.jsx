@@ -19,23 +19,29 @@ function Navbar() {
         <footer className='navbar'>
             <div className="navbarNav">
                 <ul className="navbarListItems">
-                    <li className="navbarListItems" onClick={() => navigate
+                    <li className="navbarListItem" onClick={() => navigate
                         ('/')}>
                         <ExploreIcon fill={pathmatchRoute('/') ? '#2c2c2c' : '#8f8f8f'}
                             width='36px' height='36px' />
-                        <p>Explore</p>
+                        <p className={
+                            pathmatchRoute('/') ?
+                            'navbarListItemNameActive' : 'navbarListItemNam'}>Explore</p>
                         </li>
-                    <li className="navbarListItems" onClick={() => navigate
+                    <li className="navbarListItem" onClick={() => navigate
                         ('/offers')}>
                         <OfferIcon fill={pathmatchRoute('/offers') ? '#2c2c2c' : '#8f8f8f'}
                             width='36px' height='36px' />
-                        <p>Offer</p>
+                        <p className={
+                            pathmatchRoute('/offers') ?
+                            'navbarListItemNameActive' : 'navbarListItemNam'}>Offer</p>
                         </li>
-                    <li className="navbarListItems" onClick={() => navigate
+                    <li className="navbarListItem" onClick={() => navigate
                         ('/profile')}>
                         <PersonOutlineIcon fill={pathmatchRoute('/profile') ? '#2c2c2c' : '#8f8f8f'}
                             width='36px' height='36px' />
-                        <p>Profile</p>
+                        <p className={
+                            pathmatchRoute('/profile') ?
+                            'navbarListItemNameActive' : 'navbarListItemNam'}>Profile</p>
                         </li>
                     </ul>
                 </div>
