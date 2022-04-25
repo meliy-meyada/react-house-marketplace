@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { toast } from 'react-toastify'
 import { Link, useNavigate } from "react-router-dom"
 import { signInWithEmailAndPassword, getAuth } from "firebase/auth"
 import {ReactComponent as ArrowRightIcon} from '../assets/svg/keyboardArrowRightIcon.svg'
@@ -35,7 +36,7 @@ function SignIn() {
         }
             
         } catch (error) {
-            console.log(error);
+            toast.error('ข้อมูลผู้ใช้ไม่ถูกต้อง')
         }
 
     }
