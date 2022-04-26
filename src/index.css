@@ -8,6 +8,7 @@ html::-webkit-scrollbar {
 }
 
 body {
+  min-height: 120vh;
   font-family: 'Prompt', sans-serif;
   background-color: #f2f4f8;
   margin: 0;
