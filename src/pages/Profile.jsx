@@ -66,7 +66,7 @@ function Profile() {
                         changeDetails && onSubmit()
                         setChangeDetails((prevState) => !prevState)
                     }}>
-                        { changeDetails ? 'เสร็จแล้ว' : 'เปลี่ยน'}
+                        { changeDetails ? 'บันทึก' : 'เปลี่ยน'}
                     </p>
                 </div>
                 <div className="profileCard">
