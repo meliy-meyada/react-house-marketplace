@@ -14,7 +14,7 @@ function Explore() {
             <main>
                 {/* Slider */}
 
-                <p className="exploreCategoryHeading">หมวดหมู่</p>
+                <p className="exploreCategoryHeading">Categories</p>
                 <div className="exploreCategories">
                     <Link to='/category/rent'>
                         <img
