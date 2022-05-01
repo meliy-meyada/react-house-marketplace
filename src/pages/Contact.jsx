@@ -32,7 +32,7 @@ function Contact() {
     return (
         <div className='pageContainer'>
         <header>
-            <p className='pageHeader'>Contact Landlord</p>
+            <p className='pageHeader'>ติดต่อสอบถาม</p>
         </header>
 
         {landlord !== null && (

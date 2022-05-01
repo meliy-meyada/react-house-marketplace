@@ -111,7 +111,7 @@ function Profile() {
             </header>
             <main>
                 <div className="profileDetailsHeader">
-                    <p className="profileDetailsText">Personal data</p>
+                    <p className="profileDetailsText">ข้อมูลส่วนตัว</p>
                     <p className="changePersonalDetails" onClick={() => {
                         changeDetails && onSubmit()
                         setChangeDetails((prevState) => !prevState)
@@ -142,7 +142,7 @@ function Profile() {
 
                 <Link to='/create-listing' className='createListing'>
                     <img src={homeIcon} alt="home" />
-                    <p>Sell or rent your home</p>
+                    <p>ขายหรือให้เช่าบ้านของคุณ</p>
                     <img src={arrowRight} alt="arrow right" />
                 </Link>
 

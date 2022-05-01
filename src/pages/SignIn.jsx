@@ -77,12 +77,12 @@ function SignIn() {
                         />
                     </div>
                     <Link to='/forgot-password' className="forgotPasswordLink">
-                        Forgot Password ?
+                        ลืมรหัสผ่าน ?
                     </Link>
 
                     <div className="signInBar">
                         <p className="signInText">
-                            Sign In
+                            เข้าสู่ระบบ
                         </p>
                         <button className="signInButton">
                             <ArrowRightIcon
@@ -98,7 +98,7 @@ function SignIn() {
                 <OAuth />
                 
                 <Link to='/sign-up' className='registerLink'>
-                    Sign Up Instead
+                    สมัครสมาชิกฟรี
                 </Link>
             </div>
         </>

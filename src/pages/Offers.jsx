@@ -52,7 +52,7 @@ function Offers() {
             setListings(listings)
             setLoading(false)
         } catch (error) {
-            toast.error('Could not fetch listings')
+            toast.error('ไม่สามารถเรียกรายชื่อ')
         }
         }
 
@@ -92,7 +92,7 @@ function Offers() {
         setListings((prevState) => [...prevState, ...listings])
         setLoading(false)
         } catch (error) {
-        toast.error('Could not fetch listings')
+        toast.error('ไม่สามารถเรียกรายชื่อ')
         }
     }
 

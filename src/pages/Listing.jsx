@@ -83,7 +83,7 @@ function Listing() {
 
         <div className='listingDetails'>
             <p className='listingName'>
-            {listing.name} - $
+            {listing.name} - ฿
             {listing.offer
                 ? listing.discountedPrice
                     .toString()
@@ -98,7 +98,7 @@ function Listing() {
             </p>
             {listing.offer && (
             <p className='discountPrice'>
-                ${listing.regularPrice - listing.discountedPrice} discount
+                {listing.regularPrice - listing.discountedPrice}฿ discount
             </p>
             )}
 
@@ -144,7 +144,7 @@ function Listing() {
                 to={`/contact/${listing.userRef}?listingName=${listing.name}`}
                 className='primaryButton'
             >
-                Contact Landlord
+                ต่อต่อสอบถาม
             </Link>
             )}
         </div>

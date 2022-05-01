@@ -53,7 +53,7 @@ function Category() {
             setListings(listings)
             setLoading(false)
         } catch (error) {
-            toast.error('Could not fetch listings')
+            toast.error('ไม่สามารถเรียกรายการสินค้าได้')
         }
         }
 
@@ -93,7 +93,7 @@ function Category() {
         setListings((prevState) => [...prevState, ...listings])
         setLoading(false)
         } catch (error) {
-        toast.error('Could not fetch listings')
+        toast.error('ไม่สามารถเรียกรายการสินค้าได้')
         }
     }
 
@@ -132,7 +132,7 @@ function Category() {
             )}
             </>
         ) : (
-            <p>No listings for {params.categoryName}</p>
+            <p>ไม่มีรายชื่อสำหรับ {params.categoryName}</p>
         )}
         </div>
     )

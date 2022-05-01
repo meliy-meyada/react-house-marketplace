@@ -58,7 +58,7 @@ function EditListing() {
     // Redirect if listing is not user's
     useEffect(() => {
         if (listing && listing.userRef !== auth.currentUser.uid) {
-        toast.error('You can not edit that listing')
+        toast.error('คุณไม่สามารถแก้ไขรายการได้')
         navigate('/')
         }
     })
@@ -75,7 +75,7 @@ function EditListing() {
             setLoading(false)
         } else {
             navigate('/')
-            toast.error('Listing does not exist')
+            toast.error('ไม่มีชื่อรายการ')
         }
         }
 
@@ -113,7 +113,7 @@ function EditListing() {
 
         if (images.length > 6) {
         setLoading(false)
-        toast.error('Max 6 images')
+        toast.error('สูงสุด 6 ภาพ')
         return
         }
 
@@ -137,7 +137,7 @@ function EditListing() {
 
         if (location === undefined || location.includes('undefined')) {
             setLoading(false)
-            toast.error('Please enter a correct address')
+            toast.error('กรุณากรอกที่อยู่ที่ถูกต้อง')
             return
         }
         } else {
@@ -190,7 +190,7 @@ function EditListing() {
         [...images].map((image) => storeImage(image))
         ).catch(() => {
         setLoading(false)
-        toast.error('Images not uploaded')
+        toast.error('ไม่สามารถอัปโหลดรูปภาพได้')
         return
         })
 
@@ -441,7 +441,7 @@ function EditListing() {
                 max='750000000'
                 required
                 />
-                {type === 'rent' && <p className='formPriceText'>$ / Month</p>}
+                {type === 'rent' && <p className='formPriceText'>฿ / Month</p>}
             </div>
 
             {offer && (
@@ -462,7 +462,7 @@ function EditListing() {
 
             <label className='formLabel'>Images</label>
             <p className='imagesInfo'>
-                The first image will be the cover (max 6).
+                ภาพแรกจะเป็นหน้าปก (สูงสุด 6)
             </p>
             <input
                 className='formInputFile'

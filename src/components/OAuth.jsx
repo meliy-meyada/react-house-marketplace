@@ -30,7 +30,7 @@ function OAuth() {
             }
             navigate('/')
         } catch (error) {
-            toast.error("Can't authorize with Google")
+            toast.error("ไม่สามารถอนุญาตด้วย Google")
         }
 
     }
