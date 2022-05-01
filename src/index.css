@@ -25,6 +25,10 @@ button {
   outline: none;
   border: none;
 }
+.firebase-emulator-warning {
+  opacity: 0.15;
+  pointer-events: none;
+}
 
 .input,
 .passwordInput,
