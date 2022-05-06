@@ -27,3 +27,10 @@ yarn-error.log*
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+database-debug.log
+database.rules.json
+storage.rules
+firebase.json
+firestore.indexes.json
+firebase.config.js
+.firebaserc
