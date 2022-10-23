@@ -144,7 +144,7 @@ function Listing() {
                 to={`/contact/${listing.userRef}?listingName=${listing.name}`}
                 className='primaryButton'
             >
-                ต่อต่อสอบถาม
+                ติดต่อสอบถาม
             </Link>
             )}
         </div>
