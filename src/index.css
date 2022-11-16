@@ -126,7 +126,7 @@ button {
   width: 64px;
   height: 64px;
   border: 8px solid;
-  border-color: #FD5D5D transparent #FD5D5D transparent;
+  border-color: #FD5D5D transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }
