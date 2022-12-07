@@ -12,7 +12,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![mobile](https://user-images.githubusercontent.com/79361511/206138330-46e1d5ad-58a6-4367-a67c-af108b0d0ea0.gif)
+
+![__________________ (1) (1) (1)](https://user-images.githubusercontent.com/79361511/206162328-ca634cc9-f228-4cb9-baf3-ccaba6deec32.gif)
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -26,6 +27,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
