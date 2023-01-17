@@ -159,9 +159,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
-![__________________ (1) (1) (1)](https://user-images.githubusercontent.com/79361511/206162328-ca634cc9-f228-4cb9-baf3-ccaba6deec32.gif)
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
