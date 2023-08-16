@@ -9,7 +9,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.6.11",
-    "firebase-admin": "^10.1.0",
+    "firebase-admin": "^11.10.1",
     "kill-port": "^1.6.1",
     "leaflet": "^1.8.0",
     "react": "^18.0.0",
