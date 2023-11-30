@@ -8,7 +8,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "firebase": "^9.6.11",
+    "firebase": "^9.15.0",
     "firebase-admin": "^10.1.0",
     "kill-port": "^1.6.1",
     "leaflet": "^1.8.0",
